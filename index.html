@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+    <head>
+        <title> Kecerdasan Buatan </title>
+        <script src="js/lib/jquery-3.4.1.min.js"></script>
+        <script src="js/lib/bootstrap.min.js"> </script>
+        <script src='js/algorithms.js'></script>
+        <script src='js/buttons.js'></script>
+        <script src='js/grid.js'></script>
+        <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <style>
+        </style>
+    </head>
+    <body>
+ <div class="modal fade" id="instructions">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="instructionsTitle"> <img src="https://1.bp.blogspot.com/-VVqX3nlqiRs/XVy4krJV_OI/AAAAAAAAAfc/jSM7NmN2-dYescO3AC_28fhb-DHYoQiUACLcBGAs/s1600/33.UKDW.png" width="5%">Anggota Kelompok 6!</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                               <ul>
+
+     <li>Ebentera Santosa <b>71180358</b></li>
+<li>Boy Afrianda Sinaga <b>71180377</b></li>
+<li>Rayland Willberd Rumengan <b>71180360 </b></li>
+<li>Solviana Elina Senda <b>71180402</b></li>
+<li>Gracelinus Malino Correia <b>71180371 </b></li>
+   </ul>
+                                </section>
+                                      
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Mulai Program</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class='nav-justified '>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <ul class="navbar-nav mr-auto">
+                        <span class="navbar-brand mb-0 h1">Kecerdasan Buatan</span>
+                     
+                       <!--  <li class="nav-item active">
+                            <a class="nav-link" href="pathfinding.html">Pathfinding </a>
+                        </li> -->
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                            <img src="https://i.ibb.co/FK6mckj/cooltext-357197211337781.png">
+                        </ul>
+                </nav>
+            </div>
+         
+         <marquee style="color: #007bff; text-align: center;"> <img src="https://1.bp.blogspot.com/-VVqX3nlqiRs/XVy4krJV_OI/AAAAAAAAAfc/jSM7NmN2-dYescO3AC_28fhb-DHYoQiUACLcBGAs/s1600/33.UKDW.png" width="2%"> Projek ini dibuat untuk memenuhi tugas mata kuliah Kecerdasan Buatan | Build With &hearts; by Eben  </marquee>  
+        <!-- side panel-->
+        <div class='container-fluid'>
+            <div class='row'>
+                <!-- Left side panel-->
+                <div class='col-xs-3' id='sidebar'>
+                    <div class="card text-white bg-info mb-4">
+                        <div class="card-header text-white bg-info mb-4">
+                            <h3>So ? Mulai Aja</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                             
+                                <select class='form-control'id='algoSelect'>    
+                                    <option value='breadth'>Breath First Search (BFS)</option>
+                        <!--             <option value='depth'>Depth First</option> -->
+                                </select>
+                            </div>
+                       <!--      <div class='form-group'>
+                                    <label for='#interval'>Interval (ms)</label>
+                                    <input id='interval' class='form-control' type='number' value="25"/>
+                                </div> -->
+                            <div class='text-center'>
+                                    <button class='btn btn-lg btn-success' id='start'>Cari Jalurmu !</button>
+                                    <span id='randWalls'></span>
+                                    <button class="btn btn-lg btn-danger" id='clear'>Hapus</button>
+                                    <br>
+                                    <br>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                 <div class='col-lg' id='grid'>
+                </div>
+                <!-- Explanation and code -->
+                <div class='col'>
+                    <div  class='card text-white bg-info mb-4'>
+                        <div class='card-header text-white bg-info mb-3'>
+                            <h3> <img style="width: 20%;" src="https://www.ukdw.ac.id/wp-content/uploads/2017/10/fti-ukdw.png"> Anggota Kelompok 6 </h3>
+                        </div>
+                        <div class='card-body text-white bg-info mb-3'>
+
+                            <marquee> 
+                           <div class="flex-container">
+  <div><img style="width: 150px; height: 150px" src="http://instagram.com/p/B5vKrzjpp61/media/?size=l"><br>Eben</div>
+  <div><img style="width: 150px; height: 150px" src="https://scontent-sin6-1.xx.fbcdn.net/v/t31.0-8/15578045_1911112269117220_6900623898395919430_o.jpg?_nc_cat=101&_nc_sid=174925&_nc_eui2=AeHPI442FpXAg9MnT7Pbc9bFbyQfETIK0cdvJB8RMgrRx3t9SJiW3TukULCd_GZ2JaKyGrk1s4Grq3aOr18SETCA&_nc_ohc=_rYpaafmJiUAX_BMN-U&_nc_ht=scontent-sin6-1.xx&oh=fabbcadef68735cd044a9623bf838def&oe=5EF8721E"><br>Boy</div>
+  <div><img style="width: 150px;height: 150px;" src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/50250624_1861725183937798_3703419178284220416_n.jpg?_nc_cat=105&_nc_sid=174925&_nc_eui2=AeF2aYMtUOSEGQFp6hfDzuW3JFFp9gTrwowkUWn2BOvCjOXYUTBqryL5XHGANASWkA6J05_Lhm_vFNC5Ob8qqKva&_nc_ohc=812qhXePYNoAX_JgQ6L&_nc_ht=scontent-sin6-2.xx&oh=4d24e1f697b90c85912ebfff7fa61e1c&oe=5EF74705"><br>Rayland </div>  
+  <div><img style="width: 150px;height: 150px;" src="https://i.ibb.co/c8bvHPs/591afb87-4fbc-49c1-ba9c-3682c520a5b6.jpg"><br>Solviana</div>
+  <div><img style="width: 150px;height: 150px;" src="https://i.ibb.co/7S8xTMm/pp.jpg"><br>Rayland </div>
+
+</div>
+</marquee>
+
+<hr>                            <div id='description'>Cari Algoritmamu</div>
+                        </div>
+                    </div>
+                    </div>
+                <!--     <div class='card'>
+                            <div class='card-header'>
+                                <h3> Pseudo Code </h3>
+                            </div>
+                            <div class='card-body'>
+                                <p id='code'> change for each algorithm</p>
+                            </div>
+                        </div>
+                </div> -->
+                <!-- Instructions modal -->
+               
+
+        <br>
+<div class="footer">
+  <p style="text-align: left;">&copy; 2020 Kelompok 6 </p>
+</div>
+    </body>
